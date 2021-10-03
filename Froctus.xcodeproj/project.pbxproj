@@ -10,6 +10,9 @@
 		180D1D14270997A200ACCDC9 /* FruitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D1D13270997A200ACCDC9 /* FruitModel.swift */; };
 		180D1D172709987F00ACCDC9 /* FruitData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D1D162709987F00ACCDC9 /* FruitData.swift */; };
 		180D1D192709A73000ACCDC9 /* FruitRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D1D182709A73000ACCDC9 /* FruitRowView.swift */; };
+		180D1D1B2709BC8700ACCDC9 /* FruitHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D1D1A2709BC8700ACCDC9 /* FruitHeaderView.swift */; };
+		180D1D1D2709BFE500ACCDC9 /* FruitDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D1D1C2709BFE500ACCDC9 /* FruitDetailView.swift */; };
+		180D1D1F2709C7B700ACCDC9 /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180D1D1E2709C7B700ACCDC9 /* SourceLinkView.swift */; };
 		186049BC27087BCE009D5DCF /* FroctusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186049BB27087BCE009D5DCF /* FroctusApp.swift */; };
 		186049BE27087BCF009D5DCF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186049BD27087BCF009D5DCF /* ContentView.swift */; };
 		186049C027087BCF009D5DCF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 186049BF27087BCF009D5DCF /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 		180D1D13270997A200ACCDC9 /* FruitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitModel.swift; sourceTree = "<group>"; };
 		180D1D162709987F00ACCDC9 /* FruitData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitData.swift; sourceTree = "<group>"; };
 		180D1D182709A73000ACCDC9 /* FruitRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitRowView.swift; sourceTree = "<group>"; };
+		180D1D1A2709BC8700ACCDC9 /* FruitHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitHeaderView.swift; sourceTree = "<group>"; };
+		180D1D1C2709BFE500ACCDC9 /* FruitDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitDetailView.swift; sourceTree = "<group>"; };
+		180D1D1E2709C7B700ACCDC9 /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
 		186049B827087BCE009D5DCF /* Froctus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Froctus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		186049BB27087BCE009D5DCF /* FroctusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FroctusApp.swift; sourceTree = "<group>"; };
 		186049BD27087BCF009D5DCF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +111,7 @@
 				186049BB27087BCE009D5DCF /* FroctusApp.swift */,
 				186049BD27087BCF009D5DCF /* ContentView.swift */,
 				186049D027089300009D5DCF /* OnboardingView.swift */,
+				180D1D1C2709BFE500ACCDC9 /* FruitDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -115,6 +122,8 @@
 				186049CC2708880A009D5DCF /* FruitCardView.swift */,
 				186049CE27088D67009D5DCF /* StartCustomButton.swift */,
 				180D1D182709A73000ACCDC9 /* FruitRowView.swift */,
+				180D1D1A2709BC8700ACCDC9 /* FruitHeaderView.swift */,
+				180D1D1E2709C7B700ACCDC9 /* SourceLinkView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -189,10 +198,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				180D1D172709987F00ACCDC9 /* FruitData.swift in Sources */,
+				180D1D1F2709C7B700ACCDC9 /* SourceLinkView.swift in Sources */,
 				186049CD2708880A009D5DCF /* FruitCardView.swift in Sources */,
+				180D1D1D2709BFE500ACCDC9 /* FruitDetailView.swift in Sources */,
 				180D1D192709A73000ACCDC9 /* FruitRowView.swift in Sources */,
 				186049BE27087BCF009D5DCF /* ContentView.swift in Sources */,
 				186049BC27087BCE009D5DCF /* FroctusApp.swift in Sources */,
+				180D1D1B2709BC8700ACCDC9 /* FruitHeaderView.swift in Sources */,
 				186049D127089300009D5DCF /* OnboardingView.swift in Sources */,
 				180D1D14270997A200ACCDC9 /* FruitModel.swift in Sources */,
 				186049CF27088D67009D5DCF /* StartCustomButton.swift in Sources */,
