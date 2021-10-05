@@ -46,6 +46,7 @@ struct ContentView: View {
             })
         
         } //: NVIAGTION VIEW
+        .navigationViewStyle(StackNavigationViewStyle())
     
     } //: BODY
 

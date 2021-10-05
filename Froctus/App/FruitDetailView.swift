@@ -66,7 +66,8 @@ struct FruitDetailView: View {
                 .navigationBarHidden(true)
             } //:SCROLlVIEW
             .edgesIgnoringSafeArea(.top)
-        }
+        } //: NAVIGATIONVIEW
+        .navigationViewStyle(StackNavigationViewStyle())
         
     }
 }

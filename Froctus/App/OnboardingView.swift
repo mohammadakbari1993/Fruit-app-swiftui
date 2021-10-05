@@ -10,6 +10,7 @@ import SwiftUI
 struct OnboardingView: View {
     var fruits : [Fruit] = fruitData
     var body: some View {
+        
         TabView {
             ForEach(fruits[0...5]) { item in
                
